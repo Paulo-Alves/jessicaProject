@@ -1,0 +1,26 @@
+.citacao-bio {
+	background-color: #D8CEF6;
+	border: 10px solid #D0A9F5;
+	width: 250px;
+	box-sizing: border-box;
+	margin: 20px 40px;
+	padding: 20px;
+}
+
+.ufgd {
+	float: right;
+}
+
+.ufpb {
+	float: left;
+}
+
+.eu {
+   float: right;
+
+}
+
+cite {
+	font-style: italic;
+	float: right;
+}

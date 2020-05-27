@@ -1,0 +1,130 @@
+body {
+	font-family: "Crimson text", "Times New Roman", serif;
+	background-color: #ECE0F8;
+	font-size: 120%;
+	line-height: 1.5;
+}
+
+h1, h2 {
+	font-family: "Yu Gothic UI", "Arial", sans-serif;
+}
+
+.titulo-principal {
+	text-align: center;
+	background-color: #D8CEF6;
+	color: black;
+	padding: 25px;
+	border-bottom: 10px solid #AC58FA;
+	font-size: 60px;
+	text-transform: uppercase;
+}
+
+p {
+	text-align: justify;
+	margin: 20px 0;
+}
+
+.navegacao-site {
+	text-align: center;
+	background-color: #A9A9F5;
+	color: black;
+}
+
+.rodape-pagina {
+	background-color: #D8CEF6;
+	color: black;
+	clear: both;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+main a {
+	color: #851944;
+}
+
+.navegacao-site a {
+	color: inherit;
+	font-family: "Open Sans Condensed", sans-serif;
+}
+
+.navegacao-site, .rodape-pagina {
+    padding: 20px;
+}
+
+.container {
+	width: 720px;
+	margin: auto;
+	padding: 30px 0;
+}
+
+.navegacao-site h1 {
+	font-size: 30px;
+	margin-bottom: 25px;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+.subtitulo-texto {
+	font-size: 30px;
+	clear: both;
+}
+
+.icones-redes-sociais li {
+	display: inline-block;
+}
+
+nav a {
+	text-transform: lowercase;
+}
+
+.icones-redes-sociais a {
+	width: 40px;
+	height: 40px;
+	display: block;
+	text-indent: -99999px;
+}
+
+.lattes {
+	background-image: url(lattes.png);
+    }
+
+.facebook {
+	background-image: url(facebook.png);
+    }
+
+.instagram {
+	background-image: url(instagram.png);
+}
+
+main {
+	float: left;
+	width: 85%;
+	padding-bottom: 80px;
+}
+
+.foto-jessica, .navegacao-site {
+	float: right;
+	box-sizing: border-box;
+	border-left: 10px solid #AC58FA;
+	border-bottom: 10px solid #AC58FA;
+}
+
+.foto-jessica {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.navegacao-site {
+	width: 15%;
+	position: relative;
+	top: 410px;
+}
